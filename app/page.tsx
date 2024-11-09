@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import heroImage from "../Public/hero.png"
 export default function Home() {
   return (
     <div className="bg-opacity-75 overflow-hidden ">
@@ -30,7 +30,7 @@ export default function Home() {
             alt="hero-pic"
            height={7000}
             width={1600}
-            src={require('../Public/hero.png')}
+            src={heroImage}
             className="pl-8 ml-40"
           >
           </Image>

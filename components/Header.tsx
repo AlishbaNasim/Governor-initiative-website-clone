@@ -1,13 +1,14 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import myImage from "../Public/logo.png"
 
 function Header(){
     return (
-        <div className='bg-[#044E83]  inline-block flex items-center justify-between h-20 '>
+        <div className='bg-[#044E83]  flex items-center justify-between h-20 '>
           <div>
             <Image
-          src={require("../Public/logo.png")}
+          src={myImage}
           width={120}
           height={140}
           alt='logo'
